@@ -1,4 +1,4 @@
-from common.webdriver_factory import get_driver
+from common import get_driver
 from selenium.webdriver.support.ui import Select
 
 

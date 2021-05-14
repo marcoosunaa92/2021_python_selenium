@@ -1,5 +1,4 @@
-from common.webdriver_factory import get_driver
-from selenium.webdriver.support.ui import Select
+from common import get_driver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -13,6 +12,7 @@ driver.get('https://www.youtube.com/ ')
 locator = (By.ID, 'search')
 textfield_search = wait.until(EC.visibility_of_element_located(locator))
 textfield_search.send_keys('Selenium')
+
 
 
 locator = (By.ID, 'search-icon-legacy')

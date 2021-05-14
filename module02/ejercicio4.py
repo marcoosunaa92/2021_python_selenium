@@ -1,4 +1,4 @@
-from common.webdriver_factory import get_driver
+from common import get_driver
 
 url = 'https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com' \
       '%2Fmail%2F&ltmpl=default&dsh=S-754881558%3A1613063574131574&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry' \
